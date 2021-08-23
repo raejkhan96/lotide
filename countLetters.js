@@ -33,3 +33,5 @@ assertArrayEqual(countLetters('The fox'), {T: 1, h: 1, e: 1, f: 1, o: 1, x: 1});
 // assertEqual(result1["Karima"], undefined);
 // assertEqual(result1["Fang"], 2);
 // assertEqual(result1["Agouhanna"], undefined);
+
+module.exports = countLetters;

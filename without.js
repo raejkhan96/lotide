@@ -32,3 +32,4 @@ const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]);
 // Make sure the original array was not altered by the without function
 assertArrayEqual(words, ["hello", "world", "lighthouse"]);
+module.exports = without;
